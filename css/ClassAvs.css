@@ -1,0 +1,137 @@
+body{
+    padding: 20px 200px;
+}
+
+
+/* DigitalArt */
+.da-title{
+    color: #e8aaa3;
+    font-size: 60px;
+    padding: 100px 0px;
+    text-align: center;
+}
+.daElement-1{
+    padding: 20px 32px;
+    background-color: snow;
+    color: black;
+    line-height: 70px;
+}
+.daSpreadsheets{
+    width: 50%;
+    padding: 0px 200px;
+}
+span{
+    color: red;
+}
+.daslide{
+    width: 50%;
+    padding: 0px 100px;
+}
+.daDog{
+    width: 10%;
+}
+.bluespan{
+    color: blue;
+}
+.bbpd{
+    padding: 0px 300px;
+}
+.backButton{
+    padding: 10px 50px;
+    background: #e8aaa3;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.backButton:hover{
+    letter-spacing: 2px;
+}
+
+/* SDGs */
+.SDGs-title{
+    color: #e8aaa3;
+    font-size: 60px;
+    padding: 100px 0px;
+    text-align: center;
+}
+.SDGsElement-1{
+    padding: 20px 32px;
+    background-color: snow;
+    color: black;
+    line-height: 70px;
+}
+.whatSDGs{
+    color: blue;
+    text-decoration: underline;
+    font-size: 100%;
+}
+.nazenaze-img{
+    width: 70%;
+}
+.honsitu-img{
+    width: 40%;
+}
+.spbw-SDGs{
+    display: flex;
+    justify-content: space-between;
+}
+.perusona-img{
+    width: 40%;
+}
+.slide-img{
+    width: 50%;
+}
+.koimeURL{
+    color: blue;
+    text-decoration: underline;
+}
+.purezen-img{
+    width: 40%;
+}
+.koimeWeb-img{
+    width: 50%;
+}
+
+/* AL */
+.Al-title{
+    color: #e8aaa3;
+    font-size: 60px;
+    padding: 100px 0px;
+    text-align: center;
+}
+.AlElement-1{
+    padding: 20px 32px;
+    background-color: snow;
+    color: black;
+    line-height: 70px;
+}
+.pjs-1{
+    width: 80%;
+}
+.pjs-2{
+    width: 80%;
+}
+
+/* 特別講演 */
+.Tal-title{
+    color: #e8aaa3;
+    font-size: 60px;
+    padding: 100px 0px;
+    text-align: center;
+}
+.TalElement-1{
+    padding: 20px 32px;
+    background-color: snow;
+    color: black;
+    line-height: 70px;
+}
+.Tal-img1{
+    width: 80%;
+}
+.Tal-img2{
+    width: 80%;
+}
+.Tal-img3{
+    width: 80%;
+}

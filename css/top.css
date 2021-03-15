@@ -1,0 +1,394 @@
+body{
+    font-family: 'M PLUS 1p', sans-serif;
+    background-color: #f8f4e6;
+    color: #e8aaa3;
+    position: relative;
+}
+a{
+    color: #e8aaa3;
+    text-decoration: none;
+}
+
+.at-first-pgAvs{
+    padding: 200px 200px;
+}
+
+.at-first{
+    padding: 100px 0px;
+    text-align: center;
+    color: yellowgreen;
+    animation: fadeIn 1.5s;
+}
+.at-first-img{
+    width: 30%;
+}
+/* 自己紹介 */
+.Self-introduction{
+    padding: 50px 100px;
+    background-color: snow;
+}
+.SI-background{
+    background: yellowgreen;
+    padding: 10px 50px;
+    color: white;
+}
+.SI-title{
+}
+.spbwn{
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    font-size: 20px;
+    white-space: nowrap;
+    padding: 0px 30px;
+    color: orange;
+}
+.SI-image{
+    width: 60%;
+    float: right;
+    padding: 30px 80px;
+    border-radius: 50%;
+}
+
+
+/* 活動一覧 */
+.Active{
+    padding: 10px 100px;
+    background-color: snow;
+}
+.Avs-background{
+    background: yellowgreen;
+    padding: 10px 50px;
+    color: white;
+}
+.Activies{
+    padding: 0px 30px;
+}
+
+/* 授業内活動 */
+.ClassActivies{
+    font-size: 30px;
+}
+.ca-title{
+    color: #e8aaa3;
+    text-align: center;
+}
+.Avs-1-2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.Avs-1{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+}
+.Avs-1-img{
+    width: 320px;
+}
+.Avs-1-title{
+    margin: 5px 10px;
+    background: #e8aaa3;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.Avs-1-title:hover{
+    letter-spacing: 5px;
+}
+.Avs-2{
+    display: flex;
+    flex-direction: column;
+}
+.Avs-2-img{
+    width: 82%;
+}
+.Avs-2-title{
+    margin: 5px 50px;
+    background: #e8aaa3;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.Avs-2-title:hover{
+    letter-spacing: 5px;
+}
+
+/* .Avs-3-4{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 100px 0px;
+}
+.Avs-3{
+    display: flex;
+    flex-direction: column;
+    padding: 38px 0px;
+}
+.Avs-3-img{
+    width: 100%;
+}
+.Avs-3-title{
+    margin: 5px 10px;
+    background: #e8aaa3;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.Avs-3-title:hover{
+    letter-spacing: 5px;
+}
+.Avs-4{
+    display: flex;
+    flex-direction: column;
+}
+.Avs-4-img{
+    width: 405px;
+}
+.Avs-4-title{
+    margin: 5px 50px;
+    background: #e8aaa3;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.Avs-4-title:hover{
+    letter-spacing: 5px;
+} */
+
+.Avs-5-6{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 0px;
+}
+.Avs-5{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+.Avs-5-img{
+    width: 229px;
+}
+.Avs-5-title{
+    margin: 5px 0px;
+    background: #e8aaa3;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.Avs-5-title:hover{
+    letter-spacing: 5px;
+}
+.Avs-6{
+    display: flex;
+    flex-direction: column;
+}
+.Avs-6-img{
+    width: 405px;
+}
+.Avs-6-title{
+    margin: 5px 20px;
+    background: #e8aaa3;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.Avs-6-title:hover{
+    letter-spacing: 5px;
+}
+
+
+/* イベント活動 */
+.EventActivies{
+    font-size: 20px;
+}
+.ea-title{
+    color: yellowgreen;
+    text-align: center;
+}
+.eaAvs-1-2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.eaAvs-1{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px 0px 0px;
+}
+.eaAvs-1-img{
+    width: 78%;
+}
+.eaAvs-1-title{
+    margin: 5px 30px;
+    background: yellowgreen;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.eaAvs-1-title:hover{
+    letter-spacing: 5px;
+}
+.eaAvs-2{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px 0px 0px;
+}
+.eaAvs-2-img{
+    width: 100%;
+}
+.eaAvs-2-title{
+    margin: 5px 30px;
+    background: yellowgreen;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.eaAvs-2-title:hover{
+    letter-spacing: 5px;
+}
+.eaAvs-3{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 50px 120px;
+}
+.eaAvs-3-img{
+    width: 78%;
+}
+.eaAvs-3-title{
+    margin: 5px 0px;
+    background: yellowgreen;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 0px 140px 0px 0px;
+}
+.eaAvs-3-title:hover{
+    letter-spacing: 5px;
+}
+
+/* プログラミング活動 */
+.programingActivies{
+    font-size: 20px;
+}
+.pg-title{
+    color: royalblue;
+    text-align: center;
+}
+.pgAvs-1-2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 40px;
+}
+.pgAvs-1{
+    display: flex;
+    flex-direction: column;
+}
+.pgAvs-1-img{
+    width: 250px;
+}
+.pgAvs-1-title{
+    margin: 5px 10px;
+    background: royalblue;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.pgAvs-1-title:hover{
+    letter-spacing: 3px;
+}
+.pgAvs-2{
+    display: flex;
+    flex-direction: column;
+}
+.pgAvs-2-img{
+    width: 70%;
+}
+.pgAvs-2-title{
+    margin: 5px 30px;
+    background: royalblue;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.pgAvs-2-title:hover{
+    letter-spacing: 5px;
+}
+.pgAvs-3-4{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 100px 0px;
+}
+.pgAvs-3{
+    display: flex;
+    flex-direction: column;
+}
+.pgAvs-3-img{
+    width: 80%;
+}
+.pgAvs-3-title{
+    margin: 5px 40px;
+    background: royalblue;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.pgAvs-3-title:hover{
+    letter-spacing: 3px;
+}
+.pgAvs-4{
+    display: flex;
+    flex-direction: column;
+}
+.pgAvs-4-img{
+    width: 350px;
+}
+.pgAvs-4-title{
+    margin: 5px 20px;
+    background: royalblue;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.pgAvs-4-title:hover{
+    letter-spacing: 5px;
+}
+.pgAvs-5{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 50px 120px;
+}
+.pgAvs-5-img{
+    width: 70%;
+}
+.pgAvs-5-title{
+    margin: 5px 0px;
+    background: royalblue;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 0px 140px 0px 0px;
+}
+.pgAvs-5-title:hover{
+    letter-spacing: 5px;
+}

@@ -1,0 +1,91 @@
+body{
+    padding: 20px 200px;
+}
+span{
+    color: red;
+}
+.bluespan{
+    color: blue;
+}
+.orangespan{
+    color: orange;
+}
+.bbpd{
+    padding: 0px 300px;
+}
+.backButton{
+    padding: 10px 50px;
+    background: yellowgreen;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.backButton:hover{
+    letter-spacing: 2px;
+}
+
+
+/* halloween */
+.hw-title{
+    color: yellowgreen;
+    font-size: 60px;
+    padding: 100px 0px;
+    text-align: center;
+}
+.hwElement-1{
+    padding: 20px 32px;
+    background-color: snow;
+    color: black;
+    line-height: 70px;
+}
+.hw-site-img{
+    width: 80%;
+}
+.flylink{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* teamweb */
+.stw-title{
+    color: yellowgreen;
+    font-size: 60px;
+    padding: 100px 0px;
+    text-align: center;
+}
+.stwElement-1{
+    padding: 20px 32px;
+    background-color: snow;
+    color: black;
+    line-height: 70px;
+}
+.stw-slide{
+    width: 70%;
+}
+.stw-web-img1{
+    width: 50%;
+}
+.stw-web-img2{
+    width: 45%;
+}
+
+/* camfes */
+.cf-title{
+    color: yellowgreen;
+    font-size: 60px;
+    padding: 100px 0px;
+    text-align: center;
+}
+.cfElement-1{
+    padding: 20px 32px;
+    background-color: snow;
+    color: black;
+    line-height: 70px;
+}
+.cf-img1{
+    width: 70%;
+}
+.aftercf-img{
+    width: 70%;
+}
