@@ -1,0 +1,38 @@
+/* 上からフェードイン */
+.slide-top {
+	opacity: 0;
+	transform: translate(0, -20px);
+	transition: all 1s ease-out;
+ }
+
+/* 下からフェードイン */
+.slide-bottom {
+	opacity: 0;
+	transform: translate(0, 20px);
+	transition: all 1s ease-out;
+ }
+
+ /* 左からフェードイン */
+.slide-left {
+	opacity: 0;
+	transform: translate(-40px, 0);
+	transition: all 1s ease-out;
+ }
+
+/* 右からフェードイン */
+.slide-right {
+	opacity: 0;
+	transform: translate(40px, 0);
+	transition: all 1s ease-out;
+ }
+
+ @keyframes fadeIn{
+     0%{
+         opacity: 0;
+         transform: translate(0, 20px);
+     }
+     100%{
+         opacity: 1;
+         transform: translate(0, 0);
+     }
+ }

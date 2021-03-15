@@ -1,0 +1,57 @@
+body{
+    padding: 20px 200px;
+}
+span{
+    color: red;
+}
+.bluespan{
+    color: blue;
+}
+.orangespan{
+    color: orange;
+}
+.bbpd{
+    padding: 0px 300px;
+}
+.backButton{
+    padding: 10px 50px;
+    background: royalblue;
+    border-radius: 100px;
+    transition: all 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.backButton:hover{
+    letter-spacing: 2px;
+}
+
+/* js&CSS study */
+.sjc-title{
+    color: royalblue;
+    font-size: 60px;
+    padding: 100px 0px;
+    text-align: center;
+}
+.sjcElement-1{
+    padding: 20px 32px;
+    background-color: snow;
+    color: black;
+    line-height: 70px;
+}
+.sjshalloween-site-img{
+    width: 70%;
+}
+
+/* typinggame */
+.tg-title{
+    color: royalblue;
+    font-size: 60px;
+    padding: 100px 0px;
+    text-align: center;
+}
+.tgElement-1{
+    padding: 20px 32px;
+    background-color: snow;
+    color: black;
+    line-height: 70px;
+}
